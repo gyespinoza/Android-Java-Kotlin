@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ejemplo TABS</string>
+    <string name="tab1">Tab 1</string>
+    <string name="tab2">Tab 2</string>
+    <string name="tab3">Tab 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragmento1">Hola desde fragmento 1</string>
+    <string name="fragmento2">Hola desde fragmento 2</string>
+    <string name="fragmento3">Hola desde fragmento 3</string>
+
+    <!--arreglo de datos para mostrar en fragmento-->
+    <string-array name="materias">
+        <item>Programacion Computacional I</item>
+        <item>Programacion Computacional II</item>
+        <item>Programacion Computacional III</item>
+        <item>Programacion Computacional IV</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--menu principal-->
+    <string name="menu1">Opcion 1</string>
+    <string name="menu2">Opcion 2</string>
+    <string name="menu3">Opcion 3</string>
+</resources>
