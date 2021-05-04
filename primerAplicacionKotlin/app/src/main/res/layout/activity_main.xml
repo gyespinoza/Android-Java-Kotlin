@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3939"
+    android:orientation="vertical"
+    android:stretchColumns="1">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="102dp"
+        android:layout_height="44dp"
+        android:gravity="left"
+        android:text="Calculadora"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="102dp"
+        android:layout_height="70dp"
+        android:gravity="right"
+        android:text="@string/_0"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TableRow
+        android:id="@+id/Fila1"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:background="#393838">
+
+        <TextView />
+
+        <TextView />
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/c"
+            android:textSize="24sp"
+            app:backgroundTint="#1E1D1D"
+            app:iconTint="#292626" />
+
+        <Button
+            android:id="@+id/btnDivision"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="@string/division"
+            android:textSize="24sp"
+            app:backgroundTint="#1E1D1D"
+            app:iconTint="#292626" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:background="#393838">
+
+        <Button
+            android:id="@+id/btnSiete"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/_7"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnOcho"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/_8"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnNueve"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/_9"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnMultiplicacion"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="@string/multiplicacion"
+            android:textSize="24sp"
+            app:backgroundTint="#1E1D1D" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#393838">
+
+        <Button
+            android:id="@+id/btnCuatro"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/_4"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6" />
+
+        <Button
+            android:id="@+id/btnCinco"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/_5"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnSeis"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/_6"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+
+        <Button
+            android:id="@+id/btnResta"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="@string/resta"
+            android:textSize="24sp"
+            app:backgroundTint="#1E1D1D"
+            app:iconTint="#292626" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#393838">
+
+        <Button
+            android:id="@+id/btnUno"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/_1"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnDos"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/_2"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnTres"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/_3"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnSuma"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="@string/suma"
+            android:textSize="24sp"
+            app:backgroundTint="#1E1D1D"
+            app:iconTint="#292626" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila5"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:background="#393838">
+
+        <TextView />
+
+        <Button
+            android:id="@+id/btnCero"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/_0"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnPunto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/punto"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnIgual"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="@string/igual"
+            android:textSize="24sp"
+            app:backgroundTint="#1E1D1D"
+            app:iconTint="#292626" />
+
+    </TableRow>
+</TableLayout>
