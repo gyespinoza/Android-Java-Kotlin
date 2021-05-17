@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "181416600332",
+    "project_id": "todolistfirebasesemana17",
+    "storage_bucket": "todolistfirebasesemana17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181416600332:android:bb1905dbfec287bea85f29",
+        "android_client_info": {
+          "package_name": "com.example.todolistfirebasesemana17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181416600332-00g3d8slnl20a1pup5afoojh9vlauh1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5rhi178-VS-aUAgruANW1Z2bsTfely_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181416600332-00g3d8slnl20a1pup5afoojh9vlauh1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

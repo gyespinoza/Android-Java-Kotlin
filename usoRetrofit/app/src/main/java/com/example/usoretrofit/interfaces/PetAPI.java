@@ -28,4 +28,5 @@ public interface PetAPI {
 
     @DELETE("api/delete.php/")
     Call<Pet> deletePet(@Query("id") String id);
+
 }
