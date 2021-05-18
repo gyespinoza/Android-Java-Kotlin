@@ -22,6 +22,10 @@ class loginActivity : AppCompatActivity() {
         btnSignIn.setOnClickListener {
             signInUser()
         }
+        btnCreateAccount.setOnClickListener {
+            startActivity(Intent(this, createAccountActivity::class.java))
+            finish()
+        }
     }
 
     //validar si esta vacio el correo y la clave
@@ -35,7 +39,7 @@ class loginActivity : AppCompatActivity() {
             firebaseAuth.signInWithEmailAndPassword(signInEmail, signInPassword)
                 .addOnCompleteListener{signIn->
                     if(signIn.isSuccessful){
-                        startActivity(Intent(this, MainActivity::class.java))
+                        startActivity(Intent(this, InicioActivity::class.java))
                         Toast.makeText(applicationContext, "Ha iniciado sesion correctamente", Toast.LENGTH_LONG).show()
                         finish()
                     }else{

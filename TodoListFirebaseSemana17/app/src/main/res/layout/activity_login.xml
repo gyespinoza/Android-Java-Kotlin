@@ -54,7 +54,7 @@
         android:layout_marginHorizontal="20dp"
         android:layout_marginVertical="20dp"
         android:hint="Clave"
-        android:inputType="textEmailAddress"
+        android:inputType="textPassword"
         android:padding="10dp"
         app:layout_constraintBottom_toTopOf="@+id/btnSignIn"
         app:layout_constraintEnd_toEndOf="@id/etSignInEmail"

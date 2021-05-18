@@ -1,5 +1,6 @@
 package com.example.todolistfirebasesemana17
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Display
@@ -8,7 +9,9 @@ import android.widget.EditText
 import android.widget.ListView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import com.example.todolistfirebasesemana17.FirebaseUtils.firebaseAuth
 import com.google.firebase.database.*
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), UpdateAndDeleteInterface {
     lateinit var database: DatabaseReference
@@ -37,6 +40,8 @@ class MainActivity : AppCompatActivity(), UpdateAndDeleteInterface {
                 addItemTolist(snapshot)
             }
         })
+
+
 
     }
 
